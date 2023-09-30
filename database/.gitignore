@@ -1,0 +1,20 @@
+*.sqlite*
+# Игнорировать папку vendor
+/vendor
+
+# Игнорировать файлы окружения
+.env
+
+# Игнорировать папку node_modules, если вы используете npm
+/node_modules
+
+# Игнорировать папку public/storage
+/public/storage
+
+# Игнорировать сгенерированные файлы
+/public/hot
+/public/css
+/public/js
+
+# Игнорировать файлы IDE (например, для PhpStorm)
+.idea
