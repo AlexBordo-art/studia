@@ -15,10 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->text('description');
-            $table->float('price');
+            $table->decimal('price', 8, 2);  // Changed from string to decimal with precision
             $table->timestamps();
         });
-        
     }
 
     /**

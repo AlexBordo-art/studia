@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\PortfolioController;
 
+use App\Http\Controllers\ServiceController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +25,6 @@ Route::get('/', function () {
 
 
 Route::resource('portfolio', PortfolioController::class);
+
+Route::resource('services', ServiceController::class);
+
